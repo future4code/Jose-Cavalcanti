@@ -104,4 +104,4 @@ const produtosYpe = produtos.filter((produto) => {
 const compreYpe = produtosYpe.map((produto) => {
     return `Compre ${produto.nome} por ${produto.preco}`
 })
-console.log(compreYpe)
+//console.log(compreYpe)
