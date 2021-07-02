@@ -3,6 +3,8 @@
   *  ESTILOS GERAIS 
   *
   **/
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 
 * {
     margin: 0;
@@ -10,6 +12,7 @@
 }
 
 h2 {
+    font-family: "Roboto", sans-serif;
     background-color: #fe7e02;
     padding: 10px 5px 10px 5px;
     color: white;
@@ -33,10 +36,6 @@ div>p:first-child {
     display: inline;
 }
 
-div img {
-    background: black;
-}
-
 .botao-amarelo {
     background-color: #ffaf43;
     width: 200px;
@@ -56,7 +55,8 @@ div img {
 }
 
 .icone {
-    height: 15px;
+    height: 20px !important; 
+    width: 20px !important;
 }
 
 
@@ -102,11 +102,15 @@ table {
 }
 
 td button {
-    background-color: #fadf63;
+    background-color: #f3db6d;
     width: 150px;
     height: 30px;
     border-radius: 5px;
     color: black;
+}
+td button:hover {
+    background-color: #645a2c
+
 }
 
 .container-do-search {
@@ -127,4 +131,13 @@ td button {
 
 #back-button:hover {
     background-color: #635a3d
+}
+td {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.containerTabela {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
