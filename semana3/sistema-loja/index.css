@@ -1,0 +1,39 @@
+.produtosIMG {
+    margin: 10px 10px 10px 10px;
+    }
+.enquadramento {
+    height: 200px;
+    width: 200px;
+}
+.container {
+    display:flex;
+}
+.redesSociais {
+    height: 20px;
+    width: 20px;
+}
+.container1 {
+    flex-direction: column;
+    display:flex;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+.header {
+    width: 100vw;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+.links {
+    text-align: left;
+}
+a:visited {
+    color: grey;
+}
+a{
+    color: black;
+    text-decoration: none;
+    background-color: aliceblue;
+}
