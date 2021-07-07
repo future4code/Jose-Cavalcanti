@@ -1,0 +1,143 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;           
+}
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+}
+
+.container {
+    height: 400px;
+    text-align: center;
+}
+
+.icone {
+    height: 20px !important; 
+    width: 20px !important;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+}
+
+#container-de-descricao>ol {
+    padding: 15px 0px;
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+}
+
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+td button {
+    background-color: #f3db6d;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+td button:hover {
+    background-color: #645a2c
+
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+}
+
+#back-button:hover {
+    background-color: #635a3d
+}
+td {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.containerTabela {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
