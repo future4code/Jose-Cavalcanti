@@ -1,21 +1,24 @@
-import React, { useState } from 'react';
-import styled from "styled-components"
-import { RouteManager } from "./route/Router/Router"
+import { ChakraProvider, extendTheme } from "@chakra-ui/react"
+import RouteManager from "./route/Router/Router"
 
-const AppContainer = styled.div `
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-`
+const theme = extendTheme({
+  colors: {
+    brand: {
+      50: "#A4EA73",
+      100: "#A4EA73",
+      500: "#A4EA73",
+    }
+  }
+});
 
 function App() {
   return (
-    <AppContainer>
+
+    <ChakraProvider theme={theme}>
 
       <RouteManager/>
-
-    </AppContainer>
+      
+    </ChakraProvider>
   );
 }
 
