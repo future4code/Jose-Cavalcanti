@@ -3,7 +3,7 @@ import React from "react";
 import { goToTripsDetails } from "../../route/Coordinates/Coordinates";
 import { useHistory } from "react-router-dom"
 import { AdminList, TripName, TripCard} from "../../constants/Styled/Styled"
-import { ImBin2 } from "react-icons/im";
+// import { ImBin2 } from "react-icons/im";
 
 export default function AdminTripsList() {
   const trips = useTripsLists();
@@ -20,7 +20,8 @@ export default function AdminTripsList() {
 
               <button
                 onClick={() => deleteTrip(trip.id)}
-              ><ImBin2/>
+              >
+                {/* <ImBin2/> */}
               </button>
             
             </AdminList>
