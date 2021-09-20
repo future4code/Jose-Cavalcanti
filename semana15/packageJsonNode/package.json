@@ -1,0 +1,8 @@
+{
+    "script": {
+        "start": "echo 'ola turma' && open public/index.html"
+    },
+    "dependencies": {
+        "typescript": "^4.4.3"
+    }
+}
